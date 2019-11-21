@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);
 
 
 
@@ -8,7 +10,7 @@ body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 4.25rem;
   font-display: swap;
 }
@@ -32,7 +34,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 1.5rem;
   font-display: swap;
 }
@@ -711,7 +713,7 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-rIhFMyrDET {
-  background-image: url("../../../assets/images/mbr-5.jpg");
+  background-image: url("../../../assets/images/mbr-13.jpg");
 }
 .cid-rIhFMyrDET .icons-media-container {
   display: flex;
@@ -737,7 +739,7 @@ section.lazy-placeholder:after {
   padding-bottom: 1.5rem;
 }
 .cid-rIhFMyrDET H1 {
-  color: #ffffff;
+  color: #f7ed4a;
 }
 .cid-rIhTyyNdU5 {
   padding-top: 0px;
