@@ -739,11 +739,19 @@ section.lazy-placeholder:after {
   padding-bottom: 1.5rem;
 }
 .cid-rIhFMyrDET H1 {
-  color: #f7ed4a;
+  color: #232323;
+}
+.cid-rIhFMyrDET H5 {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-rIhFMyrDET .mbr-text,
+.cid-rIhFMyrDET .mbr-section-btn {
+  color: #232323;
 }
 .cid-rIhTyyNdU5 {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-color: #ffffff;
 }
 .cid-rIhTyyNdU5 .card-box {
@@ -807,4 +815,9 @@ section.lazy-placeholder:after {
 }
 .cid-rIhJTJB5BH LABEL {
   color: #0f7699;
+}
+.cid-rIxJRz22Fi {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }
