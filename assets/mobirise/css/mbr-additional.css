@@ -713,7 +713,7 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-rIhFMyrDET {
-  background-image: url("../../../assets/images/mbr-13.jpg");
+  background-image: url("../../../assets/images/cankiri-1.jpg");
 }
 .cid-rIhFMyrDET .icons-media-container {
   display: flex;
@@ -739,7 +739,7 @@ section.lazy-placeholder:after {
   padding-bottom: 1.5rem;
 }
 .cid-rIhFMyrDET H1 {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-rIhFMyrDET H5 {
   text-align: left;
@@ -747,11 +747,11 @@ section.lazy-placeholder:after {
 }
 .cid-rIhFMyrDET .mbr-text,
 .cid-rIhFMyrDET .mbr-section-btn {
-  color: #232323;
+  color: #b2ccd2;
 }
 .cid-rIhTyyNdU5 {
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rIhTyyNdU5 .card-box {
@@ -789,16 +789,19 @@ section.lazy-placeholder:after {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
+.cid-rIhTyyNdU5 .card-title {
+  color: #232323;
+}
 .cid-rIhJTJB5BH {
-  padding-top: 105px;
-  padding-bottom: 0px;
+  padding-top: 45px;
+  padding-bottom: 120px;
   background-color: #ffffff;
 }
 .cid-rIhJTJB5BH .title {
   margin-bottom: 2rem;
 }
 .cid-rIhJTJB5BH .mbr-section-subtitle {
-  color: #ff3366;
+  color: #232323;
 }
 .cid-rIhJTJB5BH a:not([href]):not([tabindex]) {
   color: #fff;
@@ -815,9 +818,4 @@ section.lazy-placeholder:after {
 }
 .cid-rIhJTJB5BH LABEL {
   color: #232323;
-}
-.cid-rIxJRz22Fi {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
 }
