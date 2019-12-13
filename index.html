@@ -120,7 +120,13 @@
         <div class="addons-row">
             <div class="addons-container-inner"><div class="facebookPlaceholder" data-numposts="10"><img src="assets/images/facebook-comments.jpg"></div></div>
             
-           
+           <?php
+$myFile = "say.txt";
+$fh = fopen($myFile, 'r');
+$theData = fread($fh, filesize($myFile));
+echo $theData;
+fclose($fh);
+?> <a href="http://www.sitekodlari.com">Kere Yüklendi</a>
         </div>
     </div>
 </section>
