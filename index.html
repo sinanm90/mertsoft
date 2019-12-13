@@ -108,6 +108,18 @@
             </div>
 
 
+<?php
+$fp = fopen("Count.txt", "r");
+$count = fread($fp, 1024);
+fclose($fp);
+$count = $count + 1;
+//Un-comment to display the downloads.
+echo "Downloads:" . $count . "";
+$fp = fopen("sayac.txt", "w");
+fwrite($fp, $count);
+fclose($fp);
+?>
+
             
         </div>
     </div>
