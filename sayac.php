@@ -11,5 +11,5 @@
     fwrite($fh, $theData);
     fclose($fh);
 
-    header("https://drive.google.com/uc?export=download&confirm=V48W&id=1ZLlyGUG9aznopQPWHHcpf19hK3KSaQkL");
+    header("Location:https://drive.google.com/uc?export=download&confirm=V48W&id=1ZLlyGUG9aznopQPWHHcpf19hK3KSaQkL");
     ?>
