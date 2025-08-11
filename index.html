@@ -36,12 +36,17 @@
   gtag('config', 'UA-153595278-1');
 </script>
   
-  <style>
+<style>
+  .mbr-section-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Butonları ortalar */
+  }
+
   .mbr-section-btn a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 70px; /* Sabit yükseklik */
+    flex: 1 1 250px; /* Minimum genişlik: 250px, ama esnek */
+    min-height: 70px;
     padding: 12px 20px;
     font-size: 18px;
     text-align: center;
@@ -51,12 +56,17 @@
   }
 
   @media (max-width: 768px) {
+    .mbr-section-btn {
+      flex-direction: column;
+      align-items: stretch; /* Butonları tam genişlikte hizalar */
+    }
+
     .mbr-section-btn a {
       width: 100%;
-      margin-bottom: 10px;
     }
   }
 </style>
+
 
 </head>
 <body>
