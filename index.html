@@ -59,22 +59,27 @@
   .mbr-section-btn {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Ortalar */
-    gap: 8px; /* Butonlar arası boşluk */
+    align-items: center;
+    gap: 4px; /* Daha az boşluk */
+    padding: 0; /* Ekstra boşlukları kaldır */
+    margin: 0;
   }
 
   .mbr-section-btn a {
-    width: auto; /* Tam genişlik yerine içeriğe göre */
-    padding: 6px 12px; /* Küçük buton boyutu */
-    font-size: 14px; /* Küçük yazı */
-    border-radius: 6px;
+    width: auto;
+    min-width: 100px; /* Butonlar çok dar olmasın */
+    padding: 4px 10px; /* Daha küçük butonlar */
+    font-size: 13px; /* Küçük yazı */
+    border-radius: 4px;
     background-color: #007bff;
     color: white;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    line-height: 1.2;
+    box-shadow: none; /* Gölgeyi kaldırarak sadeleştir */
   }
 }
+
 
 
 </style>
