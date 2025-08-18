@@ -55,16 +55,27 @@
     line-height: 1.4;
   }
 
-  @media (max-width: 768px) {
-    .mbr-section-btn {
-      flex-direction: column;
-      align-items: stretch; /* Butonları tam genişlikte hizalar */
-    }
-
-    .mbr-section-btn a {
-      width: 100%;
-    }
+@media (max-width: 768px) {
+  .mbr-section-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px; /* Butonlar arasında boşluk */
   }
+
+  .mbr-section-btn a {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
+
 </style>
 
 
