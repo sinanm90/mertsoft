@@ -57,28 +57,29 @@
 
 @media (max-width: 768px) {
   .mbr-section-btn {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px; /* Butonlar arası boşluk */
+    gap: 6px;
   }
 
-.mbr-section-btn a {
-  width: fit-content;
-  max-width: 90%;
-  height: 32px;
-  padding: 0 10px;
-  font-size: 13px;
-  line-height: 32px;
-  border-radius: 4px;
-  background-color: #007bff;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  .mbr-section-btn a {
+    flex: none; /* Masaüstü esnekliği iptal */
+    min-height: auto; /* Yükseklik sınırlaması kaldırıldı */
+    height: 32px;
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 32px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+    max-width: 90%;
+  }
 }
 
-}
 
 
 
